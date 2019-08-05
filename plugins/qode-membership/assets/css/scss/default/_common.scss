@@ -1,0 +1,107 @@
+/* ==========================================================================
+   Qode Membership Plugin Style - begin
+   ========================================================================== */
+
+.qode-social-login-holder input[type="text"],
+.qode-social-login-holder input[type="email"],
+.qode-social-login-holder input[type="password"],
+.qode-social-register-holder input[type="text"],
+.qode-social-register-holder input[type="email"],
+.qode-social-register-holder input[type="password"],
+.qode-social-reset-password-holder input[type="text"],
+.qode-social-reset-password-holder input[type="email"],
+.qode-social-reset-password-holder input[type="password"],
+.qode-membership-input-holder .qode-membership-input {
+    position: relative;
+    width: 100%;
+	margin: 0 0 13px;
+	padding: 14px 25px;
+	border: 1px solid $default-border-color;
+	border-radius: 0;
+	outline: 0;
+	resize: none;
+	font-size: 14px;
+	line-height: 17px;
+	background-color: #fff;
+	color: #818181;
+	font-family: inherit;
+	font-weight: 400;
+	box-sizing: border-box;
+    outline: 0;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+
+    @include qodePlaceholder {
+        color: $default-text-color;
+    }
+}
+.qode-membership-password-inputs-holder {
+	margin-top: 40px;
+	margin-bottom: 23px;
+}
+
+.qode-membership-holder-title {
+	margin-bottom: 20px;
+}
+
+.qode-membership-row{
+
+	margin: 0 -17px;
+
+	.qode-membership-column {
+
+		width: 50%;
+		float: left;
+		box-sizing: border-box;
+		padding: 0 17px;
+
+		.qode-membership-input-holder{
+			label{
+				display: block;
+				text-transform: uppercase;
+				font-size: 12px;
+				font-weight: 500;
+				margin: 0;
+			}
+		}
+	}
+}
+.qode-membership-response-holder{
+	.qode-membership-response {
+		display: block;
+		margin: 14px 0 0;
+		font-size: 13px;
+		font-weight: 700;
+
+		&.qode-membership-message-succes {
+			color: #000;
+		}
+
+		&.qode-membership-message-error {
+			color: #ff3d27;
+		}
+	}
+}
+
+.qode-wp-register-holder{
+	.qode-register-notice h5 {
+		margin: 0;
+	}
+}
+
+.page-template-user-dashboard {
+	&.qode-membership-navigation-over-title{
+		.container{
+			z-index: 101;
+
+			.qode-membership-dashboard-nav-holder {
+				margin-top: -112px;
+			}
+		}
+	}
+}
+
+
+/* ==========================================================================
+   Qode Membership Plugin Style - end
+   ========================================================================== */

@@ -1,0 +1,330 @@
+# Copyright (C) 2018 Qode Membership
+# This file is distributed under the same license as the Qode Membership package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Qode Membership 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/qode-membership\n"
+"POT-Creation-Date: 2018-02-22 10:11:35+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/membership-options-map.php:17
+msgid "Membership"
+msgstr ""
+
+#: admin/membership-options-map.php:24
+msgid "General"
+msgstr ""
+
+#: admin/membership-options-map.php:31
+msgid "Display navigation tabs over title"
+msgstr ""
+
+#: admin/membership-options-map.php:32
+msgid "Enable this option if you would like the navigation tabs on the user dashboard to overlap the title area."
+msgstr ""
+
+#: admin/membership-options-map.php:39 admin/membership-options-map.php:46
+msgid "Enable Social Login"
+msgstr ""
+
+#: admin/membership-options-map.php:47
+msgid "Enabling this option will allow login from social networks of your choice"
+msgstr ""
+
+#: admin/membership-options-map.php:67
+msgid "Facebook"
+msgstr ""
+
+#: admin/membership-options-map.php:68
+msgid "Enabling this option will allow login via Facebook"
+msgstr ""
+
+#: admin/membership-options-map.php:88
+msgid "Facebook App ID"
+msgstr ""
+
+#: admin/membership-options-map.php:89
+msgid "Copy your application ID form created Facebook Application"
+msgstr ""
+
+#: admin/membership-options-map.php:97
+msgid "Google+"
+msgstr ""
+
+#: admin/membership-options-map.php:98
+msgid "Enabling this option will allow login via Google+"
+msgstr ""
+
+#: admin/membership-options-map.php:118
+msgid "Client ID"
+msgstr ""
+
+#: admin/membership-options-map.php:119
+msgid "Copy your Client ID form created Google Application"
+msgstr ""
+
+#: admin/membership-options-map.php:124
+msgid "Terms And Conditions"
+msgstr ""
+
+#: admin/membership-options-map.php:135
+msgid "Terms And Conditions Page URL"
+msgstr ""
+
+#: admin/membership-options-map.php:136
+msgid "Enter the page URL with terms and conditions."
+msgstr ""
+
+#: dashboard/dashboard-functions.php:176
+#: dashboard/page-templates/template-parts/profile.php:6
+msgid "Profile"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:182
+msgid "Edit Profile"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:203
+msgid "Membership Profile"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:240 login/wordpress-login.php:13
+#: login/wordpress-login.php:58
+msgid "All fields are empty"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:259
+msgid "Passwords don't match"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:267
+msgid "Error. Please insert valid email"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:278
+msgid "Your profile is updated"
+msgstr ""
+
+#: dashboard/dashboard-functions.php:281
+msgid "You are unauthorized to perform this action."
+msgstr ""
+
+#: dashboard/dashboard-functions.php:285
+msgid "Error."
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:5
+msgid "Edit Your Profile"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:9
+#: dashboard/page-templates/template-parts/profile.php:8
+msgid "First Name"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:16
+#: dashboard/page-templates/template-parts/profile.php:12
+msgid "Last Name"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:25
+#: dashboard/page-templates/template-parts/profile.php:16
+#: shortcodes/register/templates/register-template.php:10
+#: shortcodes/register/templates/register-template.php:11
+msgid "Email"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:32
+#: dashboard/page-templates/template-parts/profile.php:24
+msgid "Website"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:40
+#: dashboard/page-templates/template-parts/profile.php:20
+msgid "Description"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:50
+msgid "Manage Your Password"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:54
+#: shortcodes/login/templates/login-template.php:15
+#: shortcodes/login/templates/login-template.php:16
+#: shortcodes/register/templates/register-template.php:14
+#: shortcodes/register/templates/register-template.php:15
+msgid "Password"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:60
+#: shortcodes/register/templates/register-template.php:18
+#: shortcodes/register/templates/register-template.php:19
+msgid "Repeat Password"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:70
+#: dashboard/page-templates/template-parts/edit-profile.php:79
+msgid "UPDATE PROFILE"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:73
+msgid "UPDATING PROFILE"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/edit-profile.php:74
+msgid "PROFILE UPDATED"
+msgstr ""
+
+#: dashboard/page-templates/template-parts/navigation.php:25
+msgid "Log out"
+msgstr ""
+
+#: dashboard/page-templates/user-dashboard.php:29
+msgid "Login"
+msgstr ""
+
+#: dashboard/page-templates/user-dashboard.php:32
+#: shortcodes/register/templates/register-template.php:26
+#: shortcodes/register/templates/register-template.php:30
+msgid "Register"
+msgstr ""
+
+#: dashboard/page-templates/user-dashboard.php:35
+msgid "Reset Password"
+msgstr ""
+
+#: login/common.php:53
+msgid "Not valid user"
+msgstr ""
+
+#: login/facebook-login.php:57 login/google-login.php:57
+#: login/wordpress-login.php:41
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: login/wordpress-login.php:33
+msgid "Wrong username or password."
+msgstr ""
+
+#: login/wordpress-login.php:78
+msgid "Something went wrong"
+msgstr ""
+
+#: login/wordpress-login.php:83
+msgid "User Registration"
+msgstr ""
+
+#: login/wordpress-login.php:84
+msgid "You have registered successfully on "
+msgstr ""
+
+#: login/wordpress-login.php:86
+msgid "You have registered successfully, please login with the created credentials"
+msgstr ""
+
+#: login/wordpress-login.php:90
+msgid "Both passwords must match in order to register"
+msgstr ""
+
+#: login/wordpress-login.php:93
+msgid "Username already exists"
+msgstr ""
+
+#: login/wordpress-login.php:95
+msgid "User with that name already exists"
+msgstr ""
+
+#: login/wordpress-login.php:119
+msgid "We have sent you an email"
+msgstr ""
+
+#: shortcodes/login/templates/login-template.php:11
+#: shortcodes/login/templates/login-template.php:12
+#: shortcodes/register/templates/register-template.php:5
+#: shortcodes/register/templates/register-template.php:6
+msgid "User Name"
+msgstr ""
+
+#: shortcodes/login/templates/login-template.php:12
+#: shortcodes/register/templates/register-template.php:7
+msgid "Three or more characters"
+msgstr ""
+
+#: shortcodes/login/templates/login-template.php:21
+msgid "Remember me"
+msgstr ""
+
+#: shortcodes/login/templates/login-template.php:23
+msgid "Forgot Password?"
+msgstr ""
+
+#: shortcodes/login/templates/login-template.php:23
+msgid "Forgot password?"
+msgstr ""
+
+#: shortcodes/login/templates/login-template.php:31
+#: widgets/login-widget/templates/login-modal-template.php:5
+msgid "Log In"
+msgstr ""
+
+#: shortcodes/login/templates/login-template.php:35
+msgid "LOGIN"
+msgstr ""
+
+#: shortcodes/login/templates/login-template.php:50
+#: shortcodes/register/templates/register-template.php:43
+msgid "Connect with Social Networks"
+msgstr ""
+
+#: shortcodes/register/register.php:56
+msgid "You don't have permission to register"
+msgstr ""
+
+#: shortcodes/register/register.php:60
+msgid "You are already logged in"
+msgstr ""
+
+#: shortcodes/register/templates/register-template.php:57
+msgid "By creating an account you are accepting our"
+msgstr ""
+
+#: shortcodes/register/templates/register-template.php:57
+msgid "Terms & Conditions"
+msgstr ""
+
+#: shortcodes/reset-password/templates/reset-password-template.php:4
+msgid "Enter username or email"
+msgstr ""
+
+#: shortcodes/reset-password/templates/reset-password-template.php:12
+#: shortcodes/reset-password/templates/reset-password-template.php:17
+msgid "NEW PASSWORD"
+msgstr ""
+
+#: widgets/login-widget/login-widget.php:10
+msgid "Login and register wordpress widget"
+msgstr ""
+
+#: widgets/login-widget/templates/login-modal-template.php:4
+msgid "Sign Up"
+msgstr ""
+
+#: widgets/login-widget/templates/login-widget-template.php:27
+msgid "Log Out"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Qode Membership"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin that adds social login and user dashboard page"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Qode Themes"
+msgstr ""

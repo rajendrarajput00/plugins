@@ -1,0 +1,123 @@
+.qode-membership-dashboard-nav-holder{
+	ul{
+		li{
+			a{
+				@include laptop-landscape-medium{
+					padding: 20px;
+				}
+			}
+		}
+	}		
+}
+
+@include ipad-landscape{
+	.page-template-user-dashboard{
+		&.qode-membership-navigation-over-title{
+			.container {
+				.qode-membership-dashboard-nav-holder{
+					margin-top: -101px;
+
+					ul{
+						li{
+							a{
+								padding: 15px 10px;
+								font-size: 12px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@include ipad-portrait{
+	.page-template-user-dashboard{
+		&.qode-membership-navigation-over-title{
+			.container {
+				.qode-membership-dashboard-nav-holder{
+					margin-top: -116px;
+
+					ul{
+						li{
+							a{
+								padding: 20px 30px;
+
+								.qode-dash-label{
+									display: none;
+								}
+
+								.qode-dash-icon{
+									margin-right: 0;
+									font-size: 27px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@include phone-landscape{
+	.page-template-user-dashboard{
+		&.qode-membership-navigation-over-title{
+			.container {
+				.qode-membership-dashboard-nav-holder{
+					margin-top: -102px;
+
+					ul{
+						li{
+							a{
+								padding: 15px 20px;
+
+								.qode-dash-icon{
+									font-size: 20px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@include phone-portrait{
+	.page-template-user-dashboard{
+		&.qode-membership-navigation-over-title{
+			.container {
+				.qode-membership-dashboard-nav-holder{
+					margin-top: -92px;
+
+					ul{
+						li{
+							a{
+								padding: 10px 14px;
+
+								.qode-dash-icon{
+									font-size: 18px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+@include ipad-portrait{
+	.qode-membership-dashboard-nav-holder {
+		width: 100%;
+		float: none;
+	}
+
+	.qode-membership-dashboard-content-holder {
+		width: 100%;
+		float: none;
+	}
+}

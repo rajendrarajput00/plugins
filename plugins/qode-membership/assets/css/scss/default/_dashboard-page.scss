@@ -1,0 +1,105 @@
+/* Dashboard page - start
+   ========================================================================== */
+.qode-membership-main-wrapper {
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+
+.qode-membership-dashboard-nav-holder,
+.qode-membership-dashboard-content-holder {
+    position: relative;
+    box-sizing: border-box;
+    
+}
+.qode-membership-dashboard-nav-holder {
+    margin: 0 0 33px;
+
+    ul {
+        margin: 0;
+        list-style: none;
+
+        li {
+	        float: left;
+            margin:0;
+
+	        a {
+		        display: block;
+		        text-transform: uppercase;
+		        font-weight: 500;
+		        padding: 20px 30px;
+
+		        .qode-dash-icon {
+			        margin-right: 7px;
+			        font-size: 17px;
+			        vertical-align: middle;
+			        color: #bab9b9;
+		        }
+
+	        }
+
+	        &:hover,
+			&.qode-active-dash {
+				a {
+					background-color: $first-main-color;
+					color: #fff;
+				}
+			}
+        }
+    }
+
+}
+
+.qode-membership-navigation-over-title{
+    .qode-membership-dashboard-content-holder{
+        margin-top: 77px;
+    }
+}
+
+.qode-membership-navigation-over-title{
+    .qode-membership-dashboard-nav-holder {
+        ul {
+            li {
+
+                a {
+                    color: #fff;
+                }
+
+                &:hover,
+                &.qode-active-dash {
+                    a {
+                        background-color: #fff;
+                        color: inherit;
+                    }
+
+                    .qode-dash-icon {
+                        color: $first-main-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.qode-membership-dashboard-content-holder {
+    margin: 0 0 60px;
+
+    .qode-profile-image{
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+	    margin-bottom: 20px;
+
+        img{
+            display: block;
+            position: relative;
+        }
+    }
+
+    .qode-membership-dashboard-page-title {
+        margin: 0 0 23px;
+    }
+}
+
+/* Dashboard page - end
+   ========================================================================== */
